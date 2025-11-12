@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System - SMKN 1 Ampelgading</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Council President Election</h1>
+        <p>Vote for your preferred candidate!</p>
+    </header>
+    <main>
+        <section id="candidates">
+            <h2>Candidates</h2>
+            <div class="candidate" id="candidate1">
+                <img src="path/to/candidate1.jpg" alt="Candidate 1">
+                <h3>Candidate 1</h3>
+                <p>Description of Candidate 1.</p>
+                <button onclick="vote('Candidate 1')">Vote</button>
+            </div>
+            <div class="candidate" id="candidate2">
+                <img src="path/to/candidate2.jpg" alt="Candidate 2">
+                <h3>Candidate 2</h3>
+                <p>Description of Candidate 2.</p>
+                <button onclick="vote('Candidate 2')">Vote</button>
+            </div>
+            <div class="candidate" id="candidate3">
+                <img src="path/to/candidate3.jpg" alt="Candidate 3">
+                <h3>Candidate 3</h3>
+                <p>Description of Candidate 3.</p>
+                <button onclick="vote('Candidate 3')">Vote</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 SMKN 1 Ampelgading. All rights reserved.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
