@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Alice Johnson",
+        "photo": "https://example.com/photos/alice.jpg",
+        "description": "A dedicated student with a passion for leadership and community service."
+    },
+    {
+        "name": "Bob Smith",
+        "photo": "https://example.com/photos/bob.jpg",
+        "description": "An innovative thinker focused on improving student life and engagement."
+    },
+    {
+        "name": "Charlie Brown",
+        "photo": "https://example.com/photos/charlie.jpg",
+        "description": "A team player committed to representing the voices of all students."
+    }
+]
