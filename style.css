@@ -1,42 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Voting System - SMKN 1 Ampelgading</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Student Council President Election</h1>
-        <p>Vote for your preferred candidate!</p>
-    </header>
-    <main>
-        <section id="candidates">
-            <h2>Candidates</h2>
-            <div class="candidate" id="candidate1">
-                <img src="path/to/candidate1.jpg" alt="Candidate 1">
-                <h3>Candidate 1</h3>
-                <p>Description of Candidate 1.</p>
-                <button onclick="vote('Candidate 1')">Vote</button>
-            </div>
-            <div class="candidate" id="candidate2">
-                <img src="path/to/candidate2.jpg" alt="Candidate 2">
-                <h3>Candidate 2</h3>
-                <p>Description of Candidate 2.</p>
-                <button onclick="vote('Candidate 2')">Vote</button>
-            </div>
-            <div class="candidate" id="candidate3">
-                <img src="path/to/candidate3.jpg" alt="Candidate 3">
-                <h3>Candidate 3</h3>
-                <p>Description of Candidate 3.</p>
-                <button onclick="vote('Candidate 3')">Vote</button>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 SMKN 1 Ampelgading. All rights reserved.</p>
-    </footer>
-    <script src="js/app.js"></script>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.candidate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.candidate:hover {
+    background-color: #f0f0f0;
+}
+
+.candidate img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.candidate-info {
+    flex-grow: 1;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
